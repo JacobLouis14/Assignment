@@ -1,0 +1,118 @@
+.container {
+  height: 100vh;
+  background-color: black;
+}
+.headerSection {
+  height: 25%;
+  display: flex;
+  flex-direction: row;
+  border-bottom: 1px solid lightgrey;
+  padding-left: 3%;
+  align-items: end;
+}
+.headerWrapper {
+  background-color: darkgray;
+  display: flex;
+  /* padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 5px;
+  padding-right: 5px; */
+  margin-bottom: 2%;
+  border-radius: 30px;
+  width: 40%;
+  overflow: hidden;
+}
+.headerWrapper button {
+  color: black;
+}
+.text {
+  cursor: pointer;
+  border: none;
+  outline: none;
+  padding: 10px;
+  width: 100%;
+}
+.contentContainer {
+  display: flex;
+  margin-top: 3%;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+.contentOne {
+  border: 1px solid lightgrey;
+  height: 60vh;
+  width: 50%;
+  border-radius: 10px;
+}
+.contentSecond {
+  margin-left: 3%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 50%;
+}
+.contentSecondFirstDiv {
+  border: 1px solid lightgrey;
+  height: 45%;
+  border-radius: 10px;
+}
+.contentSecondSecondDiv {
+  border: 1px solid lightgrey;
+  height: 45%;
+  border-radius: 10px;
+}
+.formWrapper {
+  display: flex;
+  flex-direction: column;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 10%;
+  padding-bottom: 10%;
+  gap: 10px;
+}
+.input {
+  outline: none;
+  border: 0.5px solid lightgrey;
+  background-color: black;
+  padding: 10px;
+  color: white;
+  border-radius: 10px;
+}
+.formDiv {
+  display: flex;
+  justify-content: space-between;
+}
+.btn {
+  margin-top: 10%;
+  align-self: flex-end;
+  padding: 12px;
+  border-radius: 10px;
+  background-color: white;
+  font-weight: 600;
+  cursor: pointer;
+}
+.dropDownWrapper {
+  width: 100%;
+  outline: none;
+  border: 0.5px solid lightgrey;
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+  padding-right: 8px;
+  cursor: pointer;
+  overflow: hidden;
+}
+.dropDown {
+  width: 100%;
+  height: 100%;
+  outline: none;
+  background-color: black;
+  border: none;
+  color: white;
+  padding: 10px;
+  cursor: pointer;
+}
+
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
